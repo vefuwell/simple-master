@@ -1,0 +1,28 @@
+{
+    "root": "./",
+    "title": "SWFT开发文档",
+    "head_title": "_开发文档_SWFT",
+    "head_description": "SWFT开发文档",
+    "head_keywords": "SWFT,SWFTCOIN,API",
+    "logo": "./images/logo.png",
+
+    "gitbook": ">= 3.0.0",
+
+    "language": "zh-hans",
+
+    "plugins": [
+        "-sharing",
+        "-fontsettings",
+        "-lunr",
+        "-search",
+        "search-pro",
+        "theme-official",
+        "sitemap-general"
+    ],
+
+    "pluginsConfig": {
+        "sitemap-general": {
+            "prefix": "http://localhost/"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "root": "./",
+    "title": "SWFT API",
+    "head_title": "_API_SWFT",
+    "head_description": "SWFT API",
+    "head_keywords": "SWFT,SWFTCOIN,API",
+    "logo": "./images/logo.png",
+
+    "gitbook": ">= 3.0.0",
+
+    "language": "en",
+
+    "plugins": [
+        "-sharing",
+        "-fontsettings",
+        "-lunr",
+        "-search",
+        "search-pro",
+        "theme-official",
+        "sitemap-general"
+    ],
+
+    "pluginsConfig": {
+        "sitemap-general": {
+            "prefix": "http://localhost/"
+        }
+    }
+}
